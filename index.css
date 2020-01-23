@@ -1,0 +1,33 @@
+main {
+    text-align: center;
+}    
+
+h1{
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+#my-picture{
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    padding: 2rem;
+    transition: transform 2s
+}
+
+#my-picture:hover{
+    cursor: default;
+    transform: scale(1.1);
+}
+
+
+/*rotate image
+transform: rotate(360deg);
+    transition: all 2s ease-in-out 0s;
+*/
+
+

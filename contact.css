@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+
+main{
+    padding: 0 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+#your-message{
+    height: 15rem;
+    text-align: left;
+}
+
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"], textarea{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 6px;
+    margin: 6px 0;
+    border: 2px solid lightgray;  
+}
+
+input[type="text"]:focus{
+    width: 100%;
+}
+
+button, input[type="reset"]{
+    background-color: gainsboro;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+button:hover, input[type="reset"]:hover{
+    background-color:  rgb(120, 158, 182) ;
+
+@media(max-width: 1040px){
+    form{
+        width: 100%;
+    }
+}
+
+
+        

@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 65px;
+}
+
+
+
